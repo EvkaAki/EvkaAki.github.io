@@ -1,0 +1,15 @@
+# Site Settings
+title: "Eva Nedeliakova"
+email: evanedeliakova@gmail.com
+description: >
+  Stránka o mne.
+baseurl: ""
+url: "http://localhost:4000"
+twitter_username: akiEvka
+github_username:  EvkaAki
+# Build Settings
+sass:
+  sass_dir: _sass
+include: ['_pages']
+kramdown:
+  input: GFM
