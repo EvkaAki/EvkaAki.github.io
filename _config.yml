@@ -1,3 +1,7 @@
-name: Hank Quinlan, Horrible Cop
+name: Eva Nedeliakova, sad and tired student
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+
+collections:
+    hobbies:
+        output: true
