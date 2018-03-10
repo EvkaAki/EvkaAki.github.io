@@ -1,20 +1,3 @@
-title: "Eva Nedeliakova"
-
-email: evanedeliakova@gmail.com
-
-description: "Táto stránka zobrazuje informácie o mne."
-
-baseurl: ""
-
-url: "http://localhost:4000"
- 
-twitter_username: akievka
-
-github_username:  EvkaAki
-
-sass:
-  sass_dir: _sass
-include: ['_pages']
-kramdown:
-  input: GFM
-
+name: Hank Quinlan, Horrible Cop
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
