@@ -29,10 +29,12 @@ ul {
     font-size: 1.2em;
     line-height: 1.1em;
 }
+
 nav ul {
    font-size: 1.5em;
    line-height: 1.4em;
 }
+
 h1, h2, h3, h4 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
 h1 { font-size: 3em;
 margin: 0px 0 20px 0;}
@@ -102,6 +104,8 @@ div {
 
 header ul {
     list-style-type: none;
+    position:fixed;
+
     margin: 0;
     padding: 0;
     width: 200px;
