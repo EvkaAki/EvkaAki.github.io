@@ -5,3 +5,10 @@ permalink: /blog/:year/:month/:day/:title
 collections:
     hobbies:
         output: true
+
+defaults:
+- scope:
+path: ""
+type: hobbies
+values:
+layout: hobby.html
