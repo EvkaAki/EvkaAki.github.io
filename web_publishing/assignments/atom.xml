@@ -5,10 +5,10 @@ layout: default
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Assignments in the school year 2017/2018</title>
- <link href="https://github.com/EvkaAki/EvkaAki.github.io/tree/master/assignments/atom.xml" rel="self"/>
- <link href="https://github.com/EvkaAki/EvkaAki.github.io/tree/master/assignments/"/>
+ <link href="https://github.com/EvkaAki/EvkaAki.github.io/tree/master/web_publishing/assignments/atom.xml" rel="self"/>
+ <link href="https://github.com/EvkaAki/EvkaAki.github.io/tree/master/web_publishing/assignments/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>"https://github.com/EvkaAki/EvkaAki.github.io/tree/master/blog/"</id>
+ <id>"https://github.com/EvkaAki/EvkaAki.github.io/tree/master/web_publishing/assignments"</id>
  <author>
    <name>Eva Nedeliakova</name>
    <email>evanedeliakova@gmail.com</email>

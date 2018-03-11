@@ -11,7 +11,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #999;
+    color: #555;
 }
 
 /* Change the link color on hover */
@@ -19,17 +19,26 @@ li a:hover {
     color: black;
 }
 
-p, ul {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333; }
+p {
+   font-size: 1.3em;
+   line-height: 1.2em;
+   color: #333; }
 
+ul {
+    color: #333;
+    font-size: 1.2em;
+    line-height: 1.1em;
+}
+nav ul {
+   font-size: 1.5em;
+   line-height: 1.4em;
+}
 h1, h2, h3, h4 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
 h1 { font-size: 3em;
-margin: 0px; }
-h2 { font-size: 2.7em; }
-h3 { font-size: 2.3em; }
-h4 { font-size: 1.9em; }
+margin: 0px 0 20px 0;}
+h2 { font-size: 2.7em; margin:  0px 0 20px 0;}
+h3 { font-size: 2.3em; margin:  0px 0 20px 0;}
+h4 { font-size: 1.9em; margin:  0px 0 20px 0;}
 
 /* Blog */
 ul.posts { margin: 20px auto 40px; font-size: 1.5em; }
@@ -38,6 +47,7 @@ ul.posts li { list-style: none; }
 p {
    text-align: justify;
    text-indent: 2em;
+   margin-bottom: 10px;
 }
 
 div {
@@ -50,7 +60,7 @@ div {
 
 .image {
     display: block;
-    margin: 30px 20px 20px 0;
+    margin: 5px 20px 20px 0;
     float: left;
     opacity: 1;
     width: 100%;

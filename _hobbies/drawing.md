@@ -1,6 +1,7 @@
 ---
 title: Drawing
-aa: hehe
 layout: hobby
 ---
 Drawing is <3
+
+[Back](\hobbies)
