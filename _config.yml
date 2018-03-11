@@ -12,3 +12,6 @@ path: ""
 type: hobbies
 values:
 layout: hobby.html
+
+plugins:
+  - jemoji
