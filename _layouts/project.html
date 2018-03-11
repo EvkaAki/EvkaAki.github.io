@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<h1>{{ page.title }}</h1>
+<h2>{{ page.subject }}</h2>
+<ul>
+    <li> Main language used to implement the project: {{ page.language }} </li>
+    {% capture time-period %}{{ page.start_date | date_to_string }} -- {{ page.end_date | date_to_string }}{% endcapture %}
+    <li> Time period: {{ time-period }} </li>
+</ul>
+<div style="width: 80%" class="center">
+  {{ content }}
+</div>
+</br>
+<h4><a href="/projects"> :arrow_left: Back</a></h4>

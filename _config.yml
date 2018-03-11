@@ -5,6 +5,8 @@ permalink: /blog/:year/:month/:day/:title
 collections:
     hobbies:
         output: true
+    projects:
+        output: true
 
 defaults:
 - scope:
