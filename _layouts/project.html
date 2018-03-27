@@ -6,10 +6,8 @@ name: project
 <h2>{{ page.subject }}</h2>
 <ul>
     <li> Main language used to implement the project: {{ page.language }} </li>
-    <!-- {% if  page.start_date != nil %}{% capture time-period %}{{ page.start_date | date_to_string }} {{ page.end_date | date_to_string }}{% endcapture %}{% endif %} -->
-    <!--<li> Time period: {{ time-period }} </li>-->
+     {% capture time-period %}{{ page.start_date | date_to_string }} -- {{ page.end_date | date_to_string }}{% endcapture %}
     <li> Number of credits: {{page.number_of_credits}} </li>
-</li>
 </ul>
 <div style="width: 80%" class="center">
   {{ content }}
