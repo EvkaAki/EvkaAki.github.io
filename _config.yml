@@ -8,6 +8,5 @@ collections:
     projects:
         output: true
     layouts:
-        output: true
 plugins:
   - jemoji
