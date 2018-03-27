@@ -7,6 +7,6 @@ collections:
         output: true
     projects:
         output: true
-    layouts:
+    - layouts
 plugins:
   - jemoji
