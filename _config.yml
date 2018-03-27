@@ -7,5 +7,7 @@ collections:
         output: true
     projects:
         output: true
+    layouts:
+        output: true
 plugins:
   - jemoji
