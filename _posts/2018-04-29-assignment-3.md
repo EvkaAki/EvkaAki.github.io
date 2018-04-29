@@ -11,7 +11,11 @@ As a part of this assignment was this documentation uploaded on the github pages
 - I used Bootstrap 4 for the styling combined with my own stylesheet .css file
 - From the html.xsl document are created 1 + n files, in which n equals the number of pages in the input file
 - The first page, which is created is the index file, containing list of links to all pages
-- The first page is called the "Main page" and as for the others, their element's <title> is used combined with their position number
+- The first page is called the "Main page" and as for the others, their element's
+```xml
+<title>
+```
+is used combined with their position number
 
 ```xml
 <xsl:choose>
@@ -43,7 +47,7 @@ As a part of this assignment was this documentation uploaded on the github pages
 </xsl:choose>
 ```
 ### PDF presentation:
-- What was a real struggle for me for the pdf version of the presentation, was the nested list, which I accomplished finaly by selecting the nested list separatly from the usual and changing its attributes, only second level of list is supported
+- What was a real struggle for me for the pdf version of the presentation, was the nested list, which I accomplished finally by selecting the nested list separately from the usual and changing its attributes, only second level of list is supported
 
 ### Relax NG validation
 - The Relax NG validation is quite simple
