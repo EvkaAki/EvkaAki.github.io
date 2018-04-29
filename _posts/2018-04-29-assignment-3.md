@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Assignment 3"
-date: 2018-03-26
+date: 2018-04-29
 ---
 The goal of the third assignment was to analyze the possibilities of writing a simple presentation in XML. Our task was to identify the basic elements of the presentation and design XML elements for their tagging. The priority was to focus on the reusability and to avoid redundancy. The elements have to be described using selected language - DTD, XSD or RELAX NG containing an explanation of the purpose of each element. In the language designed by us, we had to demonstrate the possibilities to create presentations according to the document type definition.
 
